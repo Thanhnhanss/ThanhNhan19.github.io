@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 initWebRoute(app);
 
 
-let port = process.env.PORT || 6886;
+let port = process.env.PORT || 4468;
 
 app.listen(port, () => {
     console.log("System dang chay: " + port);
